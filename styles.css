@@ -31,10 +31,10 @@ body{
     align-items: center;
     margin: auto;
     border-radius: 13px;
-    padding: 9px;
-    padding-bottom: 20px;    
-    width: 200px;
-    height: 315px;
+    padding: 7px;
+    padding-bottom: 10px;    
+    width: 260px;
+    height: 410px;
     box-shadow: 0px 4px 25px rgba(57, 83, 125, 0.15)
 
 
@@ -43,11 +43,12 @@ body{
 .section1{
     
     margin: auto;
-    margin-bottom: 8px;
+    
 }
 
 .qr-code{
-    width: 182px;
+    margin-top: 6px;
+    width: 230px;
     border-radius: 6px;
     display: block;
     display: flex;
@@ -55,18 +56,19 @@ body{
 }
 .bold{
     font-weight: 700;
-    font-size:15px;
-    padding: 5px;
+    font-size:18px;
+    padding: 4px;
+    margin: 3px;
     color: hsl(218, 44%, 22%);
-   margin: auto;
+    
 
 }
 .scan{
-    font-size: 9px;
-    padding: 4px;
-    width: 90%;
-   margin: auto;
-   margin-bottom: 10px;
+    margin-bottom: 100px;
+
+    font-size: 15px;
+    padding: 3px;
+    width: 100%;
    font-weight: 400;
    color: hsl(220, 15%, 55%);
 
