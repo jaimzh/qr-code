@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-family: Outfit;
+    
+
+
+}
+
+
+.white-tile{
+    
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 13px;
+    padding: 9px;
+    padding-bottom: 20px;    
+    width: 200px;
+    height: 315px;
+    box-shadow: 0px 4px 25px rgba(57, 83, 125, 0.15)
+
+
+}
+
+.section1{
+    
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+.qr-code{
+    width: 182px;
+    border-radius: 6px;
+    display: block;
+    display: flex;
+    align-items: center;
+}
+.bold{
+    font-weight: 700;
+    font-size:15px;
+    padding: 5px;
+    color: hsl(218, 44%, 22%);
+   margin: auto;
+
+}
+.scan{
+    font-size: 9px;
+    padding: 4px;
+    width: 90%;
+   margin: auto;
+   margin-bottom: 10px;
+   font-weight: 400;
+   color: hsl(220, 15%, 55%);
+
+
+}
